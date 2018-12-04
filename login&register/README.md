@@ -1,7 +1,6 @@
-# 思路是不通过数据库等操作实现页面（页面比较简陋，请笑纳）
+##思路是不通过数据库等操作实现页面（页面比较简陋，请笑纳）
 
-## 关于register功能
----
+#关于register功能
 1. html页面必要的表单功能
 2. 在头部写上<?php ?> 写上条件判断
 3. if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -15,8 +14,7 @@
 6. php实现页面跳转功能：header("Refresh:3;url=login.php");
    Refresh：等待3s跳转到登录页面
 
-## 关于login功能
----
+#关于login功能
 1. html页面必要的表单功能
 2. 在头部写上<?php ?> 写上条件判断
 3. if ($_SERVER['REQUEST_METHOD'] === 'POST') {
